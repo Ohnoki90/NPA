@@ -1,0 +1,153 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: inherit;
+}
+
+.hero {
+  background: black url("https://www.yu.edu/sites/default/files/psychology-881350654.jpg") center / cover;
+}
+.nav-p {
+  color: white !important;
+}
+p {
+  
+  font-size: 1em;
+  /* font-weight: 500; */
+}
+
+.about-img {
+  width: 18em;
+  height: 18em;
+}
+.footer-img {
+  width: 16em;
+  height: 16em;
+}
+
+.logo_things {
+  width: 6em !important;
+  height: 6em !important;
+}
+
+.center, .center-column, .top, .right, .bottom, .left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-column {
+  flex-direction: column;
+}
+
+.top {
+  align-items: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.mission {
+  font-weight: 600;
+}
+
+.location-text {
+  color: #726F6F;
+  line-height: 29px;
+}
+
+.event-title {
+  color: #081433;
+  margin-top: .5em !important;
+}
+
+.calendar {
+  height: 18em;
+}
+
+.calendar-container {
+  margin-top: 3em;
+  margin-left: 16px;
+}
+
+.bottom {
+  align-items: flex-end;
+}
+
+.left {
+  justify-content: flex-start
+}
+
+.single-spaced, .single-spaced * {
+  line-height: 1;
+}
+
+.header-text {
+  font-size: 3em;
+  color: white !important;
+  font-weight: bold
+}
+
+.bd-footer-links {
+  margin-top: 6rem;
+  padding-bottom: 6rem;
+}
+.bd-footer-links p {
+  font-size: 1em;
+  font-weight: bold;
+
+}
+.bd-footer-link {
+  margin-top: .5rem;
+}
+ 
+.footer-nav {
+  margin-left: 2rem;
+}
+.footer-nav p{
+  font-size: 1em;
+  font-weight: 400;
+  color: white;
+
+}
+.bd-footer {
+  background-color: #081433;
+}
+.bd-footer-img img{
+  width: 3em;
+  height: 3em;
+  margin: 1em;
+}
+.bd-footer-img p{
+  color: white;
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-left: 1em;
+}
+
+.footer-tag {
+  padding: 1rem;
+  background-color: #07122A;
+}
+
+.body-heading {
+  font-size: 1.5em !important
+}
+.body-text {
+  font-size: 1em !important;
+  margin-top: 2em !important;
+}
+
+@media (max-width: 1024px) {
+  .hero { background: black url("https://www.yu.edu/sites/default/files/psychology-881350654.jpg") center / cover;}
+  
+  .desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {background: black url("https://www.yu.edu/sites/default/files/psychology-881350654.jpg") center / cover;}
+}
+
